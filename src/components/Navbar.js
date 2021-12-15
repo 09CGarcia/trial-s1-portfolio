@@ -4,11 +4,11 @@ import { Navbar, Nav } from 'react-bootstrap'
 
 export default function NavbarComponent(){
 	return(
-		<Navbar bg = "light" expand = "lg">
+		<Navbar bg = "primary" expand = "lg">
 		<Navbar.Brand href = "#home">React-Bootstrap</Navbar.Brand>
 			<Nav className = "mr-auto">
-				<Nav.Link href = "#home">Home</Nav.Link>
-				<Nav.Link href = "#link">Link</Nav.Link>
+				<Nav.Link className = "text-light"href = "#home">Home</Nav.Link>
+				<Nav.Link className = "text-light" href = "#link">Link</Nav.Link>
 			</Nav>
 		</Navbar>
 	)
